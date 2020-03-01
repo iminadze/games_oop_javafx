@@ -75,8 +75,8 @@ public class Logic {
             if(table[index][index] == 1) {
                 if(monoHorizontal(table, index) || monoVertical(table, index)) {
                     result = true;
-                    break;
                 }
+                break;
             }
         }
         return result;
